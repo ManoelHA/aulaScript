@@ -1,13 +1,9 @@
-function cliqueMouse(){
-	console.log("Clicou no Mouse");
+function apertouTecla(event){
+	console.log("A tecla foi apertada:" +event.keyCode);
 }
-
-function botaoDireito(){
-	console.log("Clicou com o botão direito");
-
-	return false;
+function soltouTecla(){
+	console.log("Soltou a tecla");
 }
-
-function cliqueDuplo(){
-	console.log("Clique duplo!");
+function testando(){
+	console.log("testando")
 }
